@@ -159,7 +159,7 @@ const gameData = {
     description: "How good is your eye-brain-hand coordination?",
     minUsers: 1,
     maxUsers: 1,
-    component: reflexCheck
+    component: reflexCheck,
   },
 
 };
