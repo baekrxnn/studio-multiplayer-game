@@ -13,6 +13,7 @@ import TwentyOneQuestions from './games/twentyOneQuestions/TwentyOneQuestions.js
 import burst_Forth from "./games/Burst_Forth/burstForth.js";
 import fight from "./games/fight/fight.js";
 import uno from './games/uno/uno.js';
+import reflexCheck from '.games/reflexCheck/reflexCheck.js';
 
 const gameData = {
 
@@ -150,6 +151,15 @@ const gameData = {
     minUsers: 1,
     maxUsers: 10,
     component: GoogleGossip
+  },
+
+  reflexChecker: {
+    title: "Reflex Checker",
+    authors: "Karen He",
+    description: "How good is your eye-brain-hand coordination?",
+    minUsers: 1,
+    maxUsers: 1,
+    component: reflexCheck
   },
 
 };
